@@ -1,9 +1,13 @@
-import java.util.logging.LogManager;
-import java.util.logging.Logger;
+import action.enums.CubeAction;
+import action.factory.CubeActionFactory;
+import filework.ReaderFileWork;
 
 public class Main {
-    private static final Logger LOG = LogManager.getLogManager().getLogger(String.valueOf(Main.class));
-    public static void main(String[] args) {
-
+    private final static String PATH = "D:\\epam\\projects\\Task1\\data\\File_1.txt";
+    public static void main(String[] args) throws Exception {
+        ReaderFileWork reader = new ReaderFileWork();
+        reader.readingFromFile(PATH);
+        CubeActionFactory factory = new CubeActionFactory();
+        factory.getCubeAction(CubeAction.CUBE_AREA);
     }
 }
