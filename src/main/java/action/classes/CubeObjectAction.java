@@ -1,5 +1,7 @@
 package action.classes;
 
+import action.CalculationParams;
+import action.CalculationResults;
 import action.interfaces.CubePoofAction;
 import entity.CubeEntity;
 import entity.Point3DEntity;
@@ -13,7 +15,7 @@ public class CubeObjectAction implements CubePoofAction {
     public static final int NUMBER_OF_CUBE_BASES_EDGES = 8;
 
     @Override
-    public boolean check(CubeEntity cube) {
+    public boolean prove(CubeEntity cube) {
         int countEdges = 0;
         countEdges = countingEqualEdgesOfBase(cube.getNodesOfUpperBase(), countEdges, cube.getEdgeLength());
         if (countEdges == NUMBER_OF_CUBE_BASE_EDGES) {
@@ -59,5 +61,10 @@ public class CubeObjectAction implements CubePoofAction {
             }
         }
         return countEdges;
+    }
+
+    @Override
+    public CalculationResults execute(CalculationParams params) {
+        return new CalculationResults(null,null,null,false,prove(params.getCube()));
     }
 }

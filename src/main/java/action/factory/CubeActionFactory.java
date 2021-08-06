@@ -5,8 +5,12 @@ import action.classes.*;
 import action.interfaces.CubeGeometryAction;
 import exception.UnknownActionException;
 
-public class CubeActionFactory {
-    public CubeGeometryAction getCubeAction(CubeAction action) throws Exception {
+public class CubeActionFactory implements GeometryActionFactory{
+
+    CubeActionFactory() {
+    }
+
+    public CubeGeometryAction createAction(CubeAction action) throws UnknownActionException {
         CubeGeometryAction cubeAction;
         switch (action){
             case CUBE_AREA:

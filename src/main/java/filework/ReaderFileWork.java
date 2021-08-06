@@ -14,7 +14,7 @@ import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
 
-public class ReaderFileWork {
+public class ReaderFileWork implements ReaderWork{
 
     private static final Logger LOG = LogManager.getLogger(ReaderFileWork.class);
 
@@ -25,51 +25,19 @@ public class ReaderFileWork {
     public static final String UPPER_BASE = "UpperBase";
     public static final String LOWER_BASE = "LowerBase";
 
-    public CubeEntity readingFromFile(String path) throws Exception{
+    public CubeEntity readingFromFile(String path) throws Exception {
         List<Point3DEntity> upperBase = new ArrayList<>();
         List<Point3DEntity> lowerBase = new ArrayList<>();
-
-        File file = new File(path);
-
-        FileReader fileReader = null;
-        BufferedReader bufferedReader = null;
-
         String line;
-        try{
-            fileReader = new FileReader(file);
-            bufferedReader = new BufferedReader(fileReader);
-            String[] coordinates;
-            if(bufferedReader.readLine().equals(UPPER_BASE)){
-                while (!(line = bufferedReader.readLine()).equals(LOWER_BASE)){
-                    coordinates = line.split(SPACE);
-                    try {
-                        CubeInitialDataValidation.checkFileData(coordinates);
-                    }
-                    catch (DigitalException ex){
-                        LOG.error(ex.getMessage());
-                    }
-                    catch(NegativeValueException ex){
-                        LOG.error(ex.getMessage() + "");
-                    }
-                    catch(NotEnoughArgumentsException ex){
-                        LOG.error(ex.getMessage() + " ");
-                    }
-                    upperBase.add(Point(coordinates));
+        File file = new File(path);
+        try (CustomResourceWork resourceWork = new CustomResourceWork(file)){
+            if(resourceWork.getBufferedReader().readLine().equals(UPPER_BASE)){
+                while (!(line = resourceWork.getBufferedReader().readLine()).equals(LOWER_BASE)){
+                    fillBase(upperBase, line);
                 }
             }
-            while ((line = bufferedReader.readLine()) != null){
-                coordinates = line.split(SPACE);
-                lowerBase.add(Point(coordinates));
-            }
-        } catch (IOException ignore){
-        } finally {
-            try {
-                if (fileReader != null && bufferedReader != null) {
-                    fileReader.close();
-                    bufferedReader.close();
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
+            while ((line = resourceWork.getBufferedReader().readLine()) != null){
+                fillBase(lowerBase,line);
             }
         }
         return CubeEntity.of(upperBase,lowerBase);
@@ -80,4 +48,27 @@ public class ReaderFileWork {
                 ,Double.parseDouble(coordinates[INDEX_COORDINATE_Y])
                 ,Double.parseDouble(coordinates[INDEX_COORDINATE_Z]));
     }
+
+    private void catchExceptions(String[] coordinates) throws Exception {
+        try {
+            CubeInitialDataValidation.checkFileData(coordinates);
+        }
+        catch (DigitalException ex){
+            LOG.error(ex.getMessage());
+        }
+        catch(NegativeValueException ex){
+            LOG.error(ex.getMessage() + "");
+        }
+        catch(NotEnoughArgumentsException ex){
+            LOG.error(ex.getMessage() + " ");
+        }
+    }
+
+    private void fillBase(List<Point3DEntity> base, String line) throws Exception {
+        String[] coordinates = line.split(SPACE);
+        catchExceptions(coordinates);
+        base.add(Point(coordinates));
+    }
+
+
 }

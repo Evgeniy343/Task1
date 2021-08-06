@@ -1,5 +1,7 @@
 package entity;
 
+import java.util.Objects;
+
 public class Point3DEntity {
     private final double x;
     private final double y;
@@ -40,24 +42,14 @@ public class Point3DEntity {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         Point3DEntity that = (Point3DEntity) o;
-
-        if (Double.compare(that.x, x) != 0) return false;
-        if (Double.compare(that.y, y) != 0) return false;
-        return Double.compare(that.z, z) == 0;
+        return Double.compare(that.x, x) == 0 &&
+                Double.compare(that.y, y) == 0 &&
+                Double.compare(that.z, z) == 0;
     }
 
     @Override
     public int hashCode() {
-        int result;
-        long temp;
-        temp = Double.doubleToLongBits(x);
-        result = (int) (temp ^ (temp >>> 32));
-        temp = Double.doubleToLongBits(y);
-        result = 31 * result + (int) (temp ^ (temp >>> 32));
-        temp = Double.doubleToLongBits(z);
-        result = 31 * result + (int) (temp ^ (temp >>> 32));
-        return result;
+        return Objects.hash(x, y, z);
     }
 }

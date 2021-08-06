@@ -1,5 +1,6 @@
 package entity;
 import java.util.List;
+import java.util.Objects;
 
 public class CubeEntity {
     public static final int FOURTH_NODE_INDEX = 3;
@@ -8,7 +9,7 @@ public class CubeEntity {
     private final List<Point3DEntity> nodesOfLowerBase;
     private final double edgeLength;
 
-    private CubeEntity(List<Point3DEntity> nodesOfUpperBase, List<Point3DEntity> nodesOfLowerBase) {
+    CubeEntity(List<Point3DEntity> nodesOfUpperBase, List<Point3DEntity> nodesOfLowerBase) {
         this.nodesOfLowerBase = nodesOfLowerBase;
         this.nodesOfUpperBase = nodesOfUpperBase;
         this.edgeLength = nodesOfUpperBase.get(FOURTH_NODE_INDEX).getX()
@@ -44,23 +45,14 @@ public class CubeEntity {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         CubeEntity that = (CubeEntity) o;
-
-        if (Double.compare(that.edgeLength, edgeLength) != 0) return false;
-        if (nodesOfUpperBase != null ? !nodesOfUpperBase.equals(that.nodesOfUpperBase) : that.nodesOfUpperBase != null)
-            return false;
-        return nodesOfLowerBase != null ? nodesOfLowerBase.equals(that.nodesOfLowerBase) : that.nodesOfLowerBase == null;
+        return Double.compare(that.edgeLength, edgeLength) == 0 &&
+                Objects.equals(nodesOfUpperBase, that.nodesOfUpperBase) &&
+                Objects.equals(nodesOfLowerBase, that.nodesOfLowerBase);
     }
 
     @Override
     public int hashCode() {
-        int result;
-        long temp;
-        result = nodesOfUpperBase != null ? nodesOfUpperBase.hashCode() : 0;
-        result = 31 * result + (nodesOfLowerBase != null ? nodesOfLowerBase.hashCode() : 0);
-        temp = Double.doubleToLongBits(edgeLength);
-        result = 31 * result + (int) (temp ^ (temp >>> 32));
-        return result;
+        return Objects.hash(nodesOfUpperBase, nodesOfLowerBase, edgeLength);
     }
 }
