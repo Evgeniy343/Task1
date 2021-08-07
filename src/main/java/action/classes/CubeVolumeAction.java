@@ -1,22 +1,28 @@
 package action.classes;
 
-import action.CalculationParams;
-import action.CalculationResults;
-import action.interfaces.CubeCalculateAction;
+import action.params.CubeParams;
+import action.interfaces.CubeGeometryAction;
 import entity.CubeEntity;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-public class CubeVolumeAction implements CubeCalculateAction {
+public class CubeVolumeAction implements CubeGeometryAction {
 
-    public static final int DEGREE = 3;
+    private static final Logger LOG = LogManager.getLogger(CubeVolumeAction.class);
+    private static final String CALCULATES_CUBE_VOLUME_MESSAGE = "Calculates the volume of the cube";
+    private static final int DEGREE = 3;
+    private static final String FINISH_CALCULATING_VOLUME_OF_CUBE_MESSAGE
+            = "The operation to calculate the volume of the cube is completed";
 
     @Override
-    public double calculate(CubeEntity cube) {
-        return Math.pow(cube.getEdgeLength(), DEGREE);
+    public Object execute(CubeParams params) {
+        double volume = calculate(params.getCube());
+        LOG.info(FINISH_CALCULATING_VOLUME_OF_CUBE_MESSAGE);
+        return volume;
     }
 
-    @Override
-    public CalculationResults execute(CalculationParams params) {
-        return new CalculationResults(null,null,calculate(params.getCube())
-                ,null,null);
+    private double calculate(CubeEntity cube) {
+        LOG.info(CALCULATES_CUBE_VOLUME_MESSAGE);
+        return Math.pow(cube.getEdgeLength(), DEGREE);
     }
 }

@@ -26,7 +26,7 @@ public class CubeInitialDataValidation {
                     throw MESSAGE_ABOUT_ARGUMENTS;
                 }
                 if(!isDigit(coordinate,i)){
-                    throw new DigitalException(MESSAGE_ABOUT_CHARACTER,coordinate.charAt(i));
+                    throw new DigitalException(MESSAGE_ABOUT_CHARACTER,coordinate);
                 }
                 if(isNegative(coordinate,i)){
                     throw new NegativeValueException(MESSAGE_ABOUT_NEGATIVE,coordinate);

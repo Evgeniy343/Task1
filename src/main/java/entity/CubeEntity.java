@@ -1,23 +1,33 @@
 package entity;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
 public class CubeEntity {
-    public static final int FOURTH_NODE_INDEX = 3;
-    public static final int FIRST_NODE_INDEX = 0;
-    private final List<Point3DEntity> nodesOfUpperBase;
-    private final List<Point3DEntity> nodesOfLowerBase;
+    private static final Logger LOG = LogManager.getLogger(CubeEntity.class);
+    private static final int FOURTH_NODE_INDEX = 3;
+    private static final int FIRST_NODE_INDEX = 0;
+    private static final String CUBE_BEING_CREATED_MESSAGE = "The cube is being created";
+    private static final String CUBE_CREATED_MESSAGE = "Cube %s was created";
+    private final List<Point3DEntity> nodesOfUpperBase = new ArrayList<>();
+    private final List<Point3DEntity> nodesOfLowerBase = new ArrayList<>();
     private final double edgeLength;
 
     CubeEntity(List<Point3DEntity> nodesOfUpperBase, List<Point3DEntity> nodesOfLowerBase) {
-        this.nodesOfLowerBase = nodesOfLowerBase;
-        this.nodesOfUpperBase = nodesOfUpperBase;
+        this.nodesOfLowerBase.addAll(nodesOfLowerBase);
+        this.nodesOfUpperBase.addAll(nodesOfUpperBase);
         this.edgeLength = nodesOfUpperBase.get(FOURTH_NODE_INDEX).getX()
                 - nodesOfUpperBase.get(FIRST_NODE_INDEX).getX();
     }
 
     public static CubeEntity of(List<Point3DEntity> nodesOfUpperBase, List<Point3DEntity> nodesOfLowerBase){
-        return new CubeEntity(nodesOfUpperBase,nodesOfLowerBase);
+        LOG.info(CUBE_BEING_CREATED_MESSAGE);
+        CubeEntity cube = new CubeEntity(nodesOfUpperBase,nodesOfLowerBase);
+        LOG.info(String.format(CUBE_CREATED_MESSAGE,cube.toString()));
+        return cube;
     }
 
     public double getEdgeLength() {
@@ -34,10 +44,10 @@ public class CubeEntity {
 
     @Override
     public String toString() {
-        return "CubeEntity{" +
-                "nodesOfUpperBase=" + nodesOfUpperBase +
-                ", nodesOfLowerBase=" + nodesOfLowerBase +
-                ", edgeLength=" + edgeLength +
+        return "CubeEntity{" + "\n" +
+                "nodesOfUpperBase=" + nodesOfUpperBase + "\n" +
+                ",nodesOfLowerBase=" + nodesOfLowerBase + "\n" +
+                ",edgeLength=" + edgeLength +
                 '}';
     }
 

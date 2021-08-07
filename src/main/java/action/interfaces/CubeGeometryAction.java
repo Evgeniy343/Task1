@@ -1,8 +1,7 @@
 package action.interfaces;
 
-import action.CalculationParams;
-import action.CalculationResults;
+import action.params.CubeParams;
 
 public interface CubeGeometryAction {
-    CalculationResults execute(CalculationParams params);
+    Object execute(CubeParams params);
 }
