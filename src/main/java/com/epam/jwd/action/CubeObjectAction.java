@@ -1,7 +1,6 @@
-package com.epam.jwd.action.classes;
+package com.epam.jwd.action;
 
-import com.epam.jwd.action.params.CubeParams;
-import com.epam.jwd.action.interfaces.CubeGeometryAction;
+import com.epam.jwd.action.context.GeometryContext;
 import com.epam.jwd.entity.CubeEntity;
 import com.epam.jwd.entity.Point3DEntity;
 import org.apache.logging.log4j.LogManager;
@@ -21,12 +20,12 @@ public class CubeObjectAction implements CubeGeometryAction {
             = "The object is being checked for compliance with the cube";
     private static final String FINISH_CHECKING_CUBE_OBJECT_MESSAGE
             = "The operation to check the object is the cube is completed";
-    public static final String RESULT_MESSAGE = "Object is a cube - ";
+    private static final String RESULT_MESSAGE = "Object is a cube - ";
 
 
     @Override
-    public Object execute(CubeParams params) {
-        boolean isCube = prove(params.getCube());
+    public Object execute(GeometryContext context) {
+        boolean isCube = prove(context.getCube());
         LOG.info(RESULT_MESSAGE + isCube);
         LOG.info(FINISH_CHECKING_CUBE_OBJECT_MESSAGE);
         return isCube;

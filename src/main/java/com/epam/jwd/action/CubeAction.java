@@ -1,4 +1,4 @@
-package com.epam.jwd.action.enums;
+package com.epam.jwd.action;
 
 public enum CubeAction {
     CUBE_AREA,

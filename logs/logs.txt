@@ -423,3 +423,403 @@ nodesOfUpperBase=[Point3DEntity{x=10.364, y=10.364, z=20.568}, Point3DEntity{x=1
 2021-08-08 21:18:26 [main] INFO  epam.jwd.action.classes.CubeVolumeRatioAction - Calculates the volume ratio of cubes
 2021-08-08 21:18:26 [main] INFO  epam.jwd.action.classes.CubeVolumeRatioAction - Volume ratio of cubes - 0.7140000000000001
 2021-08-08 21:18:26 [main] INFO  epam.jwd.action.classes.CubeVolumeRatioAction - The operation to calculate the volume ratio of cubes is completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Reading from file
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=0.0, z=3.0} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=3.0, z=3.0} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=3.0, y=3.0, z=3.0} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=3.0, y=0.0, z=3.0} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=0.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=3.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=3.0, y=3.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=3.0, y=0.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=0.0, z=5.0} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=5.0, z=5.0} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=5.0, y=5.0, z=5.0} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=5.0, y=0.0, z=5.0} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=0.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=5.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=5.0, y=5.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=5.0, y=0.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] ERROR com.epam.jwd.filework.ReaderFileWork - Invalid character -  0.jg0
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] ERROR com.epam.jwd.filework.ReaderFileWork - Invalid character -  0ghj.0
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] ERROR com.epam.jwd.filework.ReaderFileWork - Negative coordinate -  -3.0
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] ERROR com.epam.jwd.filework.ReaderFileWork - Not enough arguments! 
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] ERROR com.epam.jwd.filework.ReaderFileWork - Not enough arguments! 
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] ERROR com.epam.jwd.filework.ReaderFileWork - Invalid character -  3.dfh0
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] ERROR com.epam.jwd.filework.ReaderFileWork - Negative coordinate -  -3.0
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=3.0, y=0.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Cube not created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] ERROR com.epam.jwd.filework.ReaderFileWork - Invalid character -  5.0fdg
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] ERROR com.epam.jwd.filework.ReaderFileWork - Not enough arguments! 
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] ERROR com.epam.jwd.filework.ReaderFileWork - Invalid character -  5.0dfg
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] ERROR com.epam.jwd.filework.ReaderFileWork - Negative coordinate -  -5.0
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] ERROR com.epam.jwd.filework.ReaderFileWork - Not enough arguments! 
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] ERROR com.epam.jwd.filework.ReaderFileWork - Invalid character -  z5.0
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] ERROR com.epam.jwd.filework.ReaderFileWork - Invalid character -  dfg5.0
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] ERROR com.epam.jwd.filework.ReaderFileWork - Invalid character -  0.0df
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Cube not created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] ERROR com.epam.jwd.filework.ReaderFileWork - Invalid character -  0.hdf0
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] ERROR com.epam.jwd.filework.ReaderFileWork - Invalid character -  5.dfh0
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] ERROR com.epam.jwd.filework.ReaderFileWork - Not enough arguments! 
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] ERROR com.epam.jwd.filework.ReaderFileWork - Negative coordinate -  -5.0
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=0.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=5.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=5.0, y=5.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=5.0, y=0.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Cube not created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.034, y=0.034, z=3.058} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.034, y=3.058, z=3.058} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=3.058, y=3.058, z=3.058} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=3.058, y=0.034, z=3.058} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.034, y=0.034, z=0.034} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.034, y=3.058, z=0.034} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=3.058, y=3.058, z=0.034} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=3.058, y=0.034, z=0.034} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=0.0, z=4.967} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=4.967, z=4.967} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=4.967, y=4.967, z=4.967} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=4.967, y=0.0, z=4.967} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=0.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=4.967, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=4.967, y=4.967, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=4.967, y=0.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=10.364, y=10.364, z=20.568} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=10.364, y=20.568, z=20.568} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=20.568, y=20.568, z=20.568} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=20.568, y=10.364, z=20.568} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=10.364, y=10.364, z=10.364} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=10.364, y=20.568, z=10.364} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=20.568, y=20.568, z=10.364} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Start data com.epam.jwd.validation
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.ReaderFileWork - Data com.epam.jwd.validation completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=20.568, y=10.364, z=10.364} was created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.filework.CustomResourceFileWork - File reading completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=0.0, z=4.0} was created
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.context.GeometryContext - Parameters for working with actions on the cube are initialized
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=4.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.context.GeometryContext - Parameters for working with actions on the cube are initialized
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=4.0, y=0.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.context.GeometryContext - Parameters for working with actions on the cube are initialized
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=0.0, z=2.5} was created
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.context.GeometryContext - Parameters for working with actions on the cube are initialized
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=12.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.context.GeometryContext - Parameters for working with actions on the cube are initialized
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.factory.CubeActionFactory - Create geometry com.epam.jwd.action
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeAreaAction - Calculates the area of the cube
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeAreaAction - Cube Area - 54.0
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeAreaAction - The operation to calculate the area of the cube is completed
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.factory.CubeActionFactory - Create geometry com.epam.jwd.action
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeAreaAction - Calculates the area of the cube
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeAreaAction - Cube Area - 150.0
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeAreaAction - The operation to calculate the area of the cube is completed
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.factory.CubeActionFactory - Create geometry com.epam.jwd.action
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeAreaAction - Calculates the area of the cube
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeAreaAction - Cube Area - 54.867456000000004
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeAreaAction - The operation to calculate the area of the cube is completed
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.factory.CubeActionFactory - Create geometry com.epam.jwd.action
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeAreaAction - Calculates the area of the cube
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeAreaAction - Cube Area - 148.02653399999997
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeAreaAction - The operation to calculate the area of the cube is completed
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.factory.CubeActionFactory - Create geometry com.epam.jwd.action
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeAreaAction - Calculates the area of the cube
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeAreaAction - Cube Area - 624.7296960000001
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeAreaAction - The operation to calculate the area of the cube is completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=0.0, z=4.0} was created
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.context.GeometryContext - Parameters for working with actions on the cube are initialized
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=4.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.context.GeometryContext - Parameters for working with actions on the cube are initialized
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=4.0, y=0.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.context.GeometryContext - Parameters for working with actions on the cube are initialized
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=0.0, z=2.5} was created
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.context.GeometryContext - Parameters for working with actions on the cube are initialized
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=12.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.context.GeometryContext - Parameters for working with actions on the cube are initialized
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.factory.CubeActionFactory - Create geometry com.epam.jwd.action
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeBaseOnPlaneAction - Checking whether its base belongs to the coordinate plane
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeBaseOnPlaneAction - Cube base on plane - true
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeBaseOnPlaneAction - The operation to check the base of cube on plane is completed
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.factory.CubeActionFactory - Create geometry com.epam.jwd.action
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeBaseOnPlaneAction - Checking whether its base belongs to the coordinate plane
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeBaseOnPlaneAction - Cube base on plane - true
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeBaseOnPlaneAction - The operation to check the base of cube on plane is completed
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.factory.CubeActionFactory - Create geometry com.epam.jwd.action
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeBaseOnPlaneAction - Checking whether its base belongs to the coordinate plane
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeBaseOnPlaneAction - Cube base on plane - false
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeBaseOnPlaneAction - The operation to check the base of cube on plane is completed
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.factory.CubeActionFactory - Create geometry com.epam.jwd.action
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeBaseOnPlaneAction - Checking whether its base belongs to the coordinate plane
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeBaseOnPlaneAction - Cube base on plane - true
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeBaseOnPlaneAction - The operation to check the base of cube on plane is completed
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.factory.CubeActionFactory - Create geometry com.epam.jwd.action
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeBaseOnPlaneAction - Checking whether its base belongs to the coordinate plane
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeBaseOnPlaneAction - Cube base on plane - false
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeBaseOnPlaneAction - The operation to check the base of cube on plane is completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=0.0, z=4.0} was created
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.context.GeometryContext - Parameters for working with actions on the cube are initialized
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=4.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.context.GeometryContext - Parameters for working with actions on the cube are initialized
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=4.0, y=0.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.context.GeometryContext - Parameters for working with actions on the cube are initialized
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=0.0, z=2.5} was created
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.context.GeometryContext - Parameters for working with actions on the cube are initialized
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=12.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.context.GeometryContext - Parameters for working with actions on the cube are initialized
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.factory.CubeActionFactory - Create geometry com.epam.jwd.action
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeObjectAction - The object is being checked for compliance with the cube
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeObjectAction - Object is a cube - true
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeObjectAction - The operation to check the object is the cube is completed
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.factory.CubeActionFactory - Create geometry com.epam.jwd.action
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeObjectAction - The object is being checked for compliance with the cube
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeObjectAction - Object is a cube - true
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeObjectAction - The operation to check the object is the cube is completed
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.factory.CubeActionFactory - Create geometry com.epam.jwd.action
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeObjectAction - The object is being checked for compliance with the cube
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeObjectAction - Object is a cube - true
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeObjectAction - The operation to check the object is the cube is completed
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.factory.CubeActionFactory - Create geometry com.epam.jwd.action
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeObjectAction - The object is being checked for compliance with the cube
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeObjectAction - Object is a cube - true
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeObjectAction - The operation to check the object is the cube is completed
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.factory.CubeActionFactory - Create geometry com.epam.jwd.action
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeObjectAction - The object is being checked for compliance with the cube
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeObjectAction - Object is a cube - true
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeObjectAction - The operation to check the object is the cube is completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=0.0, z=4.0} was created
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.context.GeometryContext - Parameters for working with actions on the cube are initialized
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=4.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.context.GeometryContext - Parameters for working with actions on the cube are initialized
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=4.0, y=0.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.context.GeometryContext - Parameters for working with actions on the cube are initialized
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=0.0, z=2.5} was created
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.context.GeometryContext - Parameters for working with actions on the cube are initialized
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=12.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.context.GeometryContext - Parameters for working with actions on the cube are initialized
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.factory.CubeActionFactory - Create geometry com.epam.jwd.action
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeAction - Calculates the volume of the cube
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeAction - Cube volume - 27.0
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeAction - The operation to calculate the volume of the cube is completed
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.factory.CubeActionFactory - Create geometry com.epam.jwd.action
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeAction - Calculates the volume of the cube
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeAction - Cube volume - 125.0
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeAction - The operation to calculate the volume of the cube is completed
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.factory.CubeActionFactory - Create geometry com.epam.jwd.action
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeAction - Calculates the volume of the cube
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeAction - Cube volume - 27.653197824
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeAction - The operation to calculate the volume of the cube is completed
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.factory.CubeActionFactory - Create geometry com.epam.jwd.action
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeAction - Calculates the volume of the cube
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeAction - Cube volume - 122.54129906299997
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeAction - The operation to calculate the volume of the cube is completed
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.factory.CubeActionFactory - Create geometry com.epam.jwd.action
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeAction - Calculates the volume of the cube
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeAction - Cube volume - 1062.456969664
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeAction - The operation to calculate the volume of the cube is completed
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=0.0, z=4.0} was created
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.context.GeometryContext - Parameters for working with actions on the cube are initialized
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=4.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.context.GeometryContext - Parameters for working with actions on the cube are initialized
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=4.0, y=0.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.context.GeometryContext - Parameters for working with actions on the cube are initialized
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=0.0, z=2.5} was created
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.context.GeometryContext - Parameters for working with actions on the cube are initialized
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - The point is being created
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.entity.Point3DEntity - Point Point3DEntity{x=0.0, y=12.0, z=0.0} was created
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.context.GeometryContext - Parameters for working with actions on the cube are initialized
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.factory.CubeActionFactory - Create geometry com.epam.jwd.action
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeRatioAction - Calculates the volume ratio of cubes
+2021-08-13 18:16:20 [main] WARN  com.epam.jwd.action.CubeVolumeRatioAction - The plane does not intersect the cube
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeRatioAction - Volume ratio of cubes - null
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeRatioAction - The operation to calculate the volume ratio of cubes is completed
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.factory.CubeActionFactory - Create geometry com.epam.jwd.action
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeRatioAction - Calculates the volume ratio of cubes
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeRatioAction - Volume ratio of cubes - 0.25
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeRatioAction - The operation to calculate the volume ratio of cubes is completed
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.factory.CubeActionFactory - Create geometry com.epam.jwd.action
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeRatioAction - Calculates the volume ratio of cubes
+2021-08-13 18:16:20 [main] WARN  com.epam.jwd.action.CubeVolumeRatioAction - The plane does not intersect the cube
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeRatioAction - Volume ratio of cubes - null
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeRatioAction - The operation to calculate the volume ratio of cubes is completed
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.factory.CubeActionFactory - Create geometry com.epam.jwd.action
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeRatioAction - Calculates the volume ratio of cubes
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeRatioAction - Volume ratio of cubes - 0.9867999999999999
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeRatioAction - The operation to calculate the volume ratio of cubes is completed
+2021-08-13 18:16:20 [main] INFO  epam.jwd.action.factory.CubeActionFactory - Create geometry com.epam.jwd.action
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeRatioAction - Calculates the volume ratio of cubes
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeRatioAction - Volume ratio of cubes - 0.7140000000000001
+2021-08-13 18:16:20 [main] INFO  com.epam.jwd.action.CubeVolumeRatioAction - The operation to calculate the volume ratio of cubes is completed

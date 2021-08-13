@@ -20,10 +20,10 @@ public class Point3DEntity {
         this.z = z;
     }
 
-    public static Point3DEntity of(double x, double y, double z){
+    public static Point3DEntity of(double x, double y, double z) {
         LOG.info(POINT_BEING_CREATED_MESSAGE);
-        Point3DEntity point = new Point3DEntity(x,y,z);
-        LOG.info(String.format(POINT_CREATED_MESSAGE,point.toString()));
+        Point3DEntity point = new Point3DEntity(x, y, z);
+        LOG.info(String.format(POINT_CREATED_MESSAGE, point.toString()));
         return point;
     }
 

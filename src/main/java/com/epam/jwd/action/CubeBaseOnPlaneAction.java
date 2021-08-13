@@ -1,7 +1,6 @@
-package com.epam.jwd.action.classes;
+package com.epam.jwd.action;
 
-import com.epam.jwd.action.params.CubeParams;
-import com.epam.jwd.action.interfaces.CubeGeometryAction;
+import com.epam.jwd.action.context.GeometryContext;
 import com.epam.jwd.entity.CubeEntity;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -14,11 +13,11 @@ public class CubeBaseOnPlaneAction implements CubeGeometryAction {
             = "Checking whether its base belongs to the coordinate plane";
     private static final String FINISH_CHECKING_BASE_ON_PLANE_MESSAGE
             = "The operation to check the base of cube on plane is completed";
-    public static final String RESULT_MESSAGE = "Cube base on plane - ";
+    private static final String RESULT_MESSAGE = "Cube base on plane - ";
 
     @Override
-    public Object execute(CubeParams params) {
-        boolean isBaseOnPlane = prove(params.getCube());
+    public Object execute(GeometryContext context) {
+        boolean isBaseOnPlane = prove(context.getCube());
         LOG.info(RESULT_MESSAGE + isBaseOnPlane);
         LOG.info(FINISH_CHECKING_BASE_ON_PLANE_MESSAGE);
         return isBaseOnPlane;

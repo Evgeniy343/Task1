@@ -1,7 +1,6 @@
-package com.epam.jwd.action.classes;
+package com.epam.jwd.action;
 
-import com.epam.jwd.action.params.CubeParams;
-import com.epam.jwd.action.interfaces.CubeGeometryAction;
+import com.epam.jwd.action.context.GeometryContext;
 import com.epam.jwd.entity.CubeEntity;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -14,11 +13,11 @@ public class CubeAreaAction implements CubeGeometryAction {
     private static final String CALCULATES_CUBE_AREA_MESSAGE = "Calculates the area of the cube";
     private static final String FINISH_CALCULATING_AREA_OF_CUBE_MESSAGE
             = "The operation to calculate the area of the cube is completed";
-    public static final String RESULT_MESSAGE = "Cube Area - ";
+    private static final String RESULT_MESSAGE = "Cube Area - ";
 
     @Override
-    public Object execute(CubeParams params) {
-        double area = calculate(params.getCube());
+    public Object execute(GeometryContext context) {
+        double area = calculate(context.getCube());
         LOG.info(RESULT_MESSAGE + area);
         LOG.info(FINISH_CALCULATING_AREA_OF_CUBE_MESSAGE);
         return area;
@@ -26,7 +25,7 @@ public class CubeAreaAction implements CubeGeometryAction {
 
     private double calculate(CubeEntity cube) {
         LOG.info(CALCULATES_CUBE_AREA_MESSAGE);
-        return Math.pow(cube.getEdgeLength(),DEGREE) * NUMBER_OF_CUBE_SURFACES;
+        return Math.pow(cube.getEdgeLength(), DEGREE) * NUMBER_OF_CUBE_SURFACES;
     }
 
 }
