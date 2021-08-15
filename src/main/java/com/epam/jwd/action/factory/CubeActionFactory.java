@@ -12,6 +12,9 @@ public class CubeActionFactory implements GeometryActionFactory {
             = new UnknownActionException("This com.epam.jwd.action was not found!");
     private static final String CREATE_ACTION_MESSAGE = "Create geometry com.epam.jwd.action";
 
+    CubeActionFactory(){
+    }
+
     @Override
     public CubeGeometryAction createAction(CubeAction action) throws UnknownActionException {
         LOG.info(CREATE_ACTION_MESSAGE);
