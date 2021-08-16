@@ -1,4 +1,4 @@
-package com.epam.jwd.result;
+package com.epam.jwd.action.result;
 
 public class TestResult {
     private final Double[] calculations;

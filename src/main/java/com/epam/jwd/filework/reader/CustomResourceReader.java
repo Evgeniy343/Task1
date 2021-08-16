@@ -1,4 +1,4 @@
-package com.epam.jwd.filework;
+package com.epam.jwd.filework.reader;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -8,20 +8,20 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 
-public class CustomResourceFileWork implements AutoCloseable {
+public class CustomResourceReader implements AutoCloseable {
 
-    private static final Logger LOG = LogManager.getLogger(CustomResourceFileWork.class);
+    private static final Logger LOG = LogManager.getLogger(CustomResourceReader.class);
     public static final String FILE_READING_COMPLETED_MESSAGE = "File reading completed";
     private final FileReader fileReader;
     private final BufferedReader bufferedReader;
 
-    CustomResourceFileWork(File file) throws FileNotFoundException {
+    CustomResourceReader(File file) throws FileNotFoundException {
         fileReader = new FileReader(file);
         bufferedReader = new BufferedReader(fileReader);
     }
 
-    public static CustomResourceFileWork of(File file) throws FileNotFoundException {
-        return new CustomResourceFileWork(file);
+    public static CustomResourceReader of(File file) throws FileNotFoundException {
+        return new CustomResourceReader(file);
     }
 
 
