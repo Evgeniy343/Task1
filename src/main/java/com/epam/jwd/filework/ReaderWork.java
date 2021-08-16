@@ -5,7 +5,7 @@ import java.util.List;
 
 public interface ReaderWork {
     static ReaderWork newInstance(){
-        return new ReaderFileWork();
+        return ReaderFileWork.getReader();
     }
 
     List<CubeEntity> execute(String path) throws Exception;

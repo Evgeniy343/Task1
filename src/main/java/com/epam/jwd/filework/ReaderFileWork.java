@@ -4,6 +4,7 @@ import com.epam.jwd.entity.Point3DEntity;
 import com.epam.jwd.exception.DigitalException;
 import com.epam.jwd.exception.NegativeValueException;
 import com.epam.jwd.exception.NotEnoughArgumentsException;
+import com.epam.jwd.filework.reader.CustomResourceReader;
 import com.epam.jwd.validation.CubeInitialDataValidation;
 
 import java.io.*;
@@ -16,6 +17,7 @@ import org.apache.logging.log4j.LogManager;
 
 public class ReaderFileWork implements ReaderWork {
 
+    private static ReaderWork reader;
     private static final Logger LOG = LogManager.getLogger(ReaderFileWork.class);
     private static final String SPACE = " ";
     private static final int INDEX_COORDINATE_X = 0;
@@ -44,7 +46,7 @@ public class ReaderFileWork implements ReaderWork {
         List<Point3DEntity> lowerBase = new ArrayList<>();
         String line;
         File file = new File(path);
-        try (CustomResourceFileWork resourceWork = CustomResourceFileWork.of(file)) {
+        try (CustomResourceReader resourceWork = CustomResourceReader.of(file)) {
             LOG.info(READING_FROM_FILE_MESSAGE);
             line = resourceWork.getBufferedReader().readLine();
             while (line != null) {
@@ -103,5 +105,12 @@ public class ReaderFileWork implements ReaderWork {
         if(isCorrectData(coordinates)){
             base.add(Point(coordinates));
         }
+    }
+
+    protected static ReaderWork getReader() {
+        if(reader == null){
+            reader = new ReaderFileWork();
+        }
+        return reader;
     }
 }
